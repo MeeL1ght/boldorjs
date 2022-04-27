@@ -1,0 +1,38 @@
+{
+  "name": "boldorjs",
+  "version": "1.0.0",
+  "description": "Work with the bolivar and the dollar as currencies in your projects.",
+  "main": "dist-node/index.js",
+  "browser": "dist-browser/index.js",
+  "types": "types/index.d.ts",
+  "files": [
+    "dist-node/*",
+    "dist-browser/*",
+    "LICENSE",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build-nodejs": "npx -p typescript tsc -p ./es6-tsconfig.json",
+    "build-browser": "npx -p typescript tsc -p ./es2022-tsconfig.json",
+    "build": "npm run build-nodejs & npm run build-browser"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MeeL1ght/boldorjs.git"
+  },
+  "author": "Moises Reyes <meelight12@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MeeL1ght/boldorjs/issues"
+  },
+  "homepage": "https://github.com/MeeL1ght/boldorjs#readme",
+  "devDependencies": {
+    "typescript": "4.6.3"
+  },
+  "dependencies": {
+    "decimal.js-light": "2.5.1"
+  }
+}

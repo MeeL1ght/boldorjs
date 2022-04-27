@@ -1,0 +1,25 @@
+{
+	"compilerOptions": {
+		"target": "ES2016",
+		"module": "ES6",
+		"rootDir": "./src",
+		"outDir": "dist",
+		"moduleResolution": "Node",
+		"lib": [
+			"ESNext",
+			"ES2017",
+			"ES2021",
+			"ES2018",
+			"ES2017.Object",
+			"DOM",
+		],
+		"declaration": true,
+		"declarationDir": "./types",
+		"removeComments": false,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"skipLibCheck": true
+	},
+	"include": ["src/**/*"],
+	"exclude": ["node_modules"]
+}
