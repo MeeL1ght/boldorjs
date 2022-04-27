@@ -1,6 +1,6 @@
 {
   "name": "boldorjs",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Work with the bolivar and the dollar as currencies in your projects.",
   "main": "./dist/index.js",
   "files": [
