@@ -11,6 +11,7 @@
   "publishConfig": {
     "access": "public"
   },
+  "type": "module",
   "scripts": {
     "build": "npx -p typescript tsc -p ./es2022-tsconfig.json"
   },
