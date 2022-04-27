@@ -14,7 +14,6 @@
 			"DOM",
 		],
 		"declaration": true,
-		"declarationDir": "./types",
 		"removeComments": false,
 		"esModuleInterop": true,
 		"forceConsistentCasingInFileNames": true,

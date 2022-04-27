@@ -1,24 +1,18 @@
 {
   "name": "boldorjs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Work with the bolivar and the dollar as currencies in your projects.",
-  "main": "dist-node/index.js",
-  "browser": "dist-browser/index.js",
-  "types": "types/index.d.ts",
+  "main": "./dist/index",
   "files": [
-    "dist-node/*",
-    "dist-browser/*",
+    "dist/*",
     "LICENSE",
     "README.md"
   ],
   "publishConfig": {
     "access": "public"
   },
-  "type": "module",
   "scripts": {
-    "build-nodejs": "npx -p typescript tsc -p ./es6-tsconfig.json",
-    "build-browser": "npx -p typescript tsc -p ./es2022-tsconfig.json",
-    "build": "npm run build-nodejs & npm run build-browser"
+    "build": "npx -p typescript tsc -p ./es2022-tsconfig.json"
   },
   "repository": {
     "type": "git",

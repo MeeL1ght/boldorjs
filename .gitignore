@@ -1,9 +1,5 @@
 /node_modules
-/dev
-/dist-browser
-/dist-node
-/types
+/dist
 .prettierignore
 .prettierrc.yml
 es6-tsconfig.json
-es2022-tsconfig.json
