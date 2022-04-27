@@ -38,6 +38,7 @@ const addSeparators = (
 				? endString
 				: endString.replace('.', separator)
 
+		endString = endString.substring(1, endString.length)
 		renderCurrency = `${startString}${endString}`
 	} else {
 		renderCurrency = fullString.replace(regex, separator)
