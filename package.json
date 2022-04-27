@@ -1,6 +1,6 @@
 {
   "name": "boldorjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Work with the bolivar and the dollar as currencies in your projects.",
   "main": "dist-node/index.js",
   "browser": "dist-browser/index.js",
@@ -14,6 +14,7 @@
   "publishConfig": {
     "access": "public"
   },
+  "type": "module",
   "scripts": {
     "build-nodejs": "npx -p typescript tsc -p ./es6-tsconfig.json",
     "build-browser": "npx -p typescript tsc -p ./es2022-tsconfig.json",
